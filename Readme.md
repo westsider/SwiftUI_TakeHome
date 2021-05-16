@@ -14,7 +14,7 @@ Although Im aware of Swift UI I hven't used it before so I learned it this weeke
 
 There are 2 branches to look at. 
 
-First I did a vanilla Swift UI imprementation on the main branch. I follwed Apple's user interface guideline which require clean navigation bars. So I did not add backgrounds to the the nav buttons.  This would have cause the app store to reject the app.
+First I did a vanilla Swift UI imprementation on the main branch. I follwed Apple's user interface guideline which require clean navigation bars. So I did not add backgrounds to the the nav buttons.  This would have caused the apple app store to reject this app.
 
 Second I did another branch called dev-viper. I have it working but ultimately I would like to refactor the presentor and interactor to satisfy the VIPER design pattern.
 
