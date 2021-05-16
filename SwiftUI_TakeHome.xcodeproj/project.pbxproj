@@ -65,14 +65,13 @@
 		8478D4C626516C3B00527A84 /* SwiftUI_TakeHome */ = {
 			isa = PBXGroup;
 			children = (
-				8478D4C926516C3B00527A84 /* SceneDelegate.swift */,
-				8478D4CB26516C3B00527A84 /* ContentView.swift */,
-				8478D4E12651729C00527A84 /* PageTwo.swift */,
-				8478D4DF2651725E00527A84 /* LogoutModal.swift */,
-				8478D4DD2651721800527A84 /* CustomButton.swift */,
+				8478D4E3265173C300527A84 /* View */,
+				8478D4E4265173CF00527A84 /* Modals */,
+				8478D4E5265173D800527A84 /* Custom Views */,
 				8478D4CD26516C3C00527A84 /* Assets.xcassets */,
 				8478D4D226516C3C00527A84 /* LaunchScreen.storyboard */,
 				8478D4C726516C3B00527A84 /* AppDelegate.swift */,
+				8478D4C926516C3B00527A84 /* SceneDelegate.swift */,
 				8478D4D526516C3C00527A84 /* Info.plist */,
 				8478D4CF26516C3C00527A84 /* Preview Content */,
 			);
@@ -85,6 +84,31 @@
 				8478D4D026516C3C00527A84 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8478D4E3265173C300527A84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4CB26516C3B00527A84 /* ContentView.swift */,
+				8478D4E12651729C00527A84 /* PageTwo.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8478D4E4265173CF00527A84 /* Modals */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4DF2651725E00527A84 /* LogoutModal.swift */,
+			);
+			path = Modals;
+			sourceTree = "<group>";
+		};
+		8478D4E5265173D800527A84 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4DD2651721800527A84 /* CustomButton.swift */,
+			);
+			path = "Custom Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
