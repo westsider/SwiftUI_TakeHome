@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// This is the UI Implementation for Page Two
+
 struct SecondView: View {
     @State private var isPresented = false
     @Environment(\.presentationMode) var presentationMode
@@ -20,10 +22,11 @@ struct SecondView: View {
         .toolbar {
             Button("Logout") {
                 isPresented.toggle()
-                /* this is a workaround to unwind segue
-                first we dismiss this view
+                //MARK: - REFACTOR -
+                /* this is a workaround to how unwind segue works in swift
+                in swift ui first we dismiss this view
                 then we launch the modal
-                which will dismiss to the main view */
+                which will the dismiss to the main view */
                 presentationMode.wrappedValue.dismiss()
             }
             .background(Color.blue)

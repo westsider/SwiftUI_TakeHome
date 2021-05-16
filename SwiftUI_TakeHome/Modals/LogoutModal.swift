@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// This is the UI Implementation for Login
+
 struct FullScreenModalView: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {

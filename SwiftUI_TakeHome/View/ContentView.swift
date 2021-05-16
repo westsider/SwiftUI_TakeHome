@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// This is the UI Implementation for Page One
+
 struct ContentView: View {
     @State private var isPresented = false
     @State var isActive : Bool = false
