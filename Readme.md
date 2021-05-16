@@ -12,10 +12,10 @@ We are using swift 5.4 wih Xcode 12.5. No dependencies required.
 
 This was a good learning experience. I haven't put swift ui into production apps before so I learned it this weekend. I have no prior experiencee with VIPER. I read up on viper and implemented what I learned. 
 
-There are 2 branches to look at. I did a vanilla Swift UI imprementation first on the master branch.
+There are 2 branches to look at. I did a vanilla Swift UI imprementation first on the main branch.
 I follwed Apple's user interface guideline which requires clean navigation bars. So I did not add backgrounds to the the nav buttons up there. 
 
-The 2nd branch called dev-viper. I have it working but ultimately was unable to refacotor the presentor or interactor to my satisfaction.
+The 2nd branch called dev-viper. I have it working but ultimately was unable to refactor the presentor or interactor to my satisfaction.
 
 ## Usage
 
