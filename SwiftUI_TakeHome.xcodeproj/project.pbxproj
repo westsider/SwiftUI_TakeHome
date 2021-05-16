@@ -16,6 +16,7 @@
 		8478D4DC26516C6200527A84 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8478D4DB26516C6200527A84 /* Readme.md */; };
 		8478D4DE2651721800527A84 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DD2651721800527A84 /* CustomButton.swift */; };
 		8478D4E02651725E00527A84 /* LogoutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DF2651725E00527A84 /* LogoutModal.swift */; };
+		8478D4E22651729C00527A84 /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E12651729C00527A84 /* PageTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		8478D4DB26516C6200527A84 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		8478D4DD2651721800527A84 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8478D4DF2651725E00527A84 /* LogoutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutModal.swift; sourceTree = "<group>"; };
+		8478D4E12651729C00527A84 /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				8478D4CB26516C3B00527A84 /* ContentView.swift */,
 				8478D4DD2651721800527A84 /* CustomButton.swift */,
 				8478D4DF2651725E00527A84 /* LogoutModal.swift */,
+				8478D4E12651729C00527A84 /* PageTwo.swift */,
 				8478D4CD26516C3C00527A84 /* Assets.xcassets */,
 				8478D4D226516C3C00527A84 /* LaunchScreen.storyboard */,
 				8478D4D526516C3C00527A84 /* Info.plist */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8478D4E02651725E00527A84 /* LogoutModal.swift in Sources */,
+				8478D4E22651729C00527A84 /* PageTwo.swift in Sources */,
 				8478D4DE2651721800527A84 /* CustomButton.swift in Sources */,
 				8478D4C826516C3B00527A84 /* AppDelegate.swift in Sources */,
 				8478D4CA26516C3B00527A84 /* SceneDelegate.swift in Sources */,
