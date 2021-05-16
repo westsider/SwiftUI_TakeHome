@@ -42,9 +42,6 @@ class PageOnePresenter: ObservableObject {
     func makePage2Button() -> some View {
         Button("Go to page 2") {
             print("Go to page 2 pressed")
-            NavigationLink(destination: SecondView()) {
-                Text("Show Detail View")
-            }
         }
         .padding(.top, 4)
         .padding(.bottom, 4)
