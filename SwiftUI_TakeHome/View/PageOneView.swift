@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//MARK: - TODO - get buttons from presenter. need to reserch how to use NavLink from there
+
 struct PageOneView: View {
     @State private var isPresented = false
     @State var isActive : Bool = false

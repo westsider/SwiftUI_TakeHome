@@ -19,7 +19,7 @@
 		8478D4DC26516C6200527A84 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 8478D4DB26516C6200527A84 /* Readme.md */; };
 		8478D4DE2651721800527A84 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DD2651721800527A84 /* CustomButton.swift */; };
 		8478D4E02651725E00527A84 /* LogoutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DF2651725E00527A84 /* LogoutModal.swift */; };
-		8478D4E22651729C00527A84 /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E12651729C00527A84 /* PageTwo.swift */; };
+		8478D4E22651729C00527A84 /* PageTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E12651729C00527A84 /* PageTwoView.swift */; };
 		8478D4EA2651779F00527A84 /* PageOnePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E92651779F00527A84 /* PageOnePresenter.swift */; };
 		8478D4EC2651796400527A84 /* PageOneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4EB2651796400527A84 /* PageOneRouter.swift */; };
 		8478D4EE265179AD00527A84 /* PageOneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4ED265179AD00527A84 /* PageOneInteractor.swift */; };
@@ -41,7 +41,7 @@
 		8478D4DB26516C6200527A84 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		8478D4DD2651721800527A84 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8478D4DF2651725E00527A84 /* LogoutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutModal.swift; sourceTree = "<group>"; };
-		8478D4E12651729C00527A84 /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
+		8478D4E12651729C00527A84 /* PageTwoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwoView.swift; sourceTree = "<group>"; };
 		8478D4E92651779F00527A84 /* PageOnePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOnePresenter.swift; sourceTree = "<group>"; };
 		8478D4EB2651796400527A84 /* PageOneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneRouter.swift; sourceTree = "<group>"; };
 		8478D4ED265179AD00527A84 /* PageOneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneInteractor.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			children = (
 				8478D4CB26516C3B00527A84 /* ContentView.swift */,
 				8478D4EF26517B1800527A84 /* PageOneView.swift */,
-				8478D4E12651729C00527A84 /* PageTwo.swift */,
+				8478D4E12651729C00527A84 /* PageTwoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			files = (
 				8437C8EE26519192008BDFA6 /* PageTwoRouter.swift in Sources */,
 				8478D4E02651725E00527A84 /* LogoutModal.swift in Sources */,
-				8478D4E22651729C00527A84 /* PageTwo.swift in Sources */,
+				8478D4E22651729C00527A84 /* PageTwoView.swift in Sources */,
 				8478D4DE2651721800527A84 /* CustomButton.swift in Sources */,
 				8478D4C826516C3B00527A84 /* AppDelegate.swift in Sources */,
 				8437C8EC26519169008BDFA6 /* PageTwoInteractor.swift in Sources */,

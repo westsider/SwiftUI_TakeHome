@@ -1,11 +1,13 @@
 //
-//  PageTwo.swift
+//  PageTwoView.swift
 //  SwiftUI_TakeHome
 //
 //  Created by Warren Hansen on 5/16/21.
 //
 
 import SwiftUI
+
+//MARK: - TODO - get buttons from presenter. need to reserch how to use NavLink from there
 
 struct SecondView: View {
     @State private var isPresented = false

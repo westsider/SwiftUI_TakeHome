@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// this is a to present the logout modal view controller
 struct FullScreenModalView: View {
     @Environment(\.presentationMode) var presentationMode
     var body: some View {
