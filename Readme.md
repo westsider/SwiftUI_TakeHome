@@ -25,4 +25,4 @@ Just 3 screens including Page 1, Page 2 and a logout modal.
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://choosealicense.com/licenses/mit/) -
