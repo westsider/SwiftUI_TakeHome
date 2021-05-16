@@ -18,7 +18,6 @@ I follwed Apple's user interface guideline which requires clean navigation bars.
 The 2nd branch called dev-viper. I have it working but ultimately was unable to refactor the presentor or interactor to my satisfaction.
 
 ## Usage
-
 Just 3 screens including Page 1, Page 2 and a logout modal.
 
 ## Contributing

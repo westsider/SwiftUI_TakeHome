@@ -20,10 +20,6 @@ struct SecondView: View {
         .toolbar {
             Button("Logout") {
                 isPresented.toggle()
-                /* this is a workaround to unwind segue
-                first we dismiss this view
-                then we launch the modal
-                which will dismiss to the main view */
                 presentationMode.wrappedValue.dismiss()
             }
             .background(Color.blue)
