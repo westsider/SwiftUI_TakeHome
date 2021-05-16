@@ -17,6 +17,10 @@
 		8478D4DE2651721800527A84 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DD2651721800527A84 /* CustomButton.swift */; };
 		8478D4E02651725E00527A84 /* LogoutModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4DF2651725E00527A84 /* LogoutModal.swift */; };
 		8478D4E22651729C00527A84 /* PageTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E12651729C00527A84 /* PageTwo.swift */; };
+		8478D4EA2651779F00527A84 /* PageOnePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4E92651779F00527A84 /* PageOnePresenter.swift */; };
+		8478D4EC2651796400527A84 /* PageOneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4EB2651796400527A84 /* PageOneRouter.swift */; };
+		8478D4EE265179AD00527A84 /* PageOneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4ED265179AD00527A84 /* PageOneInteractor.swift */; };
+		8478D4F026517B1800527A84 /* PageOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8478D4EF26517B1800527A84 /* PageOneView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		8478D4DD2651721800527A84 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		8478D4DF2651725E00527A84 /* LogoutModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutModal.swift; sourceTree = "<group>"; };
 		8478D4E12651729C00527A84 /* PageTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageTwo.swift; sourceTree = "<group>"; };
+		8478D4E92651779F00527A84 /* PageOnePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOnePresenter.swift; sourceTree = "<group>"; };
+		8478D4EB2651796400527A84 /* PageOneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneRouter.swift; sourceTree = "<group>"; };
+		8478D4ED265179AD00527A84 /* PageOneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneInteractor.swift; sourceTree = "<group>"; };
+		8478D4EF26517B1800527A84 /* PageOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageOneView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +73,9 @@
 		8478D4C626516C3B00527A84 /* SwiftUI_TakeHome */ = {
 			isa = PBXGroup;
 			children = (
+				8478D4E82651775D00527A84 /* Interactors */,
+				8478D4E72651774700527A84 /* Routers */,
+				8478D4E62651773E00527A84 /* Presenters */,
 				8478D4E3265173C300527A84 /* View */,
 				8478D4E4265173CF00527A84 /* Modals */,
 				8478D4E5265173D800527A84 /* Custom Views */,
@@ -90,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				8478D4CB26516C3B00527A84 /* ContentView.swift */,
+				8478D4EF26517B1800527A84 /* PageOneView.swift */,
 				8478D4E12651729C00527A84 /* PageTwo.swift */,
 			);
 			path = View;
@@ -109,6 +121,30 @@
 				8478D4DD2651721800527A84 /* CustomButton.swift */,
 			);
 			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		8478D4E62651773E00527A84 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4E92651779F00527A84 /* PageOnePresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		8478D4E72651774700527A84 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4EB2651796400527A84 /* PageOneRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		8478D4E82651775D00527A84 /* Interactors */ = {
+			isa = PBXGroup;
+			children = (
+				8478D4ED265179AD00527A84 /* PageOneInteractor.swift */,
+			);
+			path = Interactors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,7 +223,11 @@
 				8478D4DE2651721800527A84 /* CustomButton.swift in Sources */,
 				8478D4C826516C3B00527A84 /* AppDelegate.swift in Sources */,
 				8478D4CA26516C3B00527A84 /* SceneDelegate.swift in Sources */,
+				8478D4EA2651779F00527A84 /* PageOnePresenter.swift in Sources */,
+				8478D4EC2651796400527A84 /* PageOneRouter.swift in Sources */,
 				8478D4CC26516C3B00527A84 /* ContentView.swift in Sources */,
+				8478D4F026517B1800527A84 /* PageOneView.swift in Sources */,
+				8478D4EE265179AD00527A84 /* PageOneInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

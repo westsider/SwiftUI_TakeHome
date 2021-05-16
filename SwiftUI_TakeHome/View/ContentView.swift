@@ -13,21 +13,7 @@ struct ContentView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                Text("Page 1")
-                Spacer()
-                        .frame(height: 120)
-                NavigationLink(destination: SecondView()) {
-                    ButtonView(message: "Go To Page 2")
-                }
-                Spacer()
-            }
-            .toolbar {
-                Button("Logout") {
-                    isPresented.toggle()
-                }
-                .fullScreenCover(isPresented: $isPresented, content: FullScreenModalView.init)
-            }
+            PageOneView()
         }
     }
 }
