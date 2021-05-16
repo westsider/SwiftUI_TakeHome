@@ -10,6 +10,7 @@ import SwiftUI
 struct PageOneView: View {
     @State private var isPresented = false
     @State var isActive : Bool = false
+    @ObservedObject var presenter: PageOnePresenter
     
     var body: some View {
             VStack {
@@ -32,7 +33,10 @@ struct PageOneView: View {
 
 struct PageOneView_Previews: PreviewProvider {
     @State private var isPresented = false
+    
     static var previews: some View {
-        PageOneView()
+        let interactor = PageOneInteractor()
+        let presenter = PageOnePresenter(interactor: interactor)
+        return NavigationView { PageOneView(presenter: presenter)}
     }
 }
