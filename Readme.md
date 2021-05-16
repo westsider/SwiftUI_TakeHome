@@ -19,8 +19,7 @@ The 2nd branch called dev-viper. I have it working but ultimately was unable to 
 
 ## Usage
 
-```Just 3 screens including Page 1, Page 2 and a logout modal.
-```
+Just 3 screens including Page 1, Page 2 and a logout modal.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
